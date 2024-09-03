@@ -111,6 +111,10 @@ nav a {
   margin: 0 auto;
 }
 
+main section {
+  margin-top: 130px;
+}
+
 /* about section start */
 .about {
   padding: 130px;
@@ -128,7 +132,33 @@ nav a {
   text-align: center;
 }
 
-/* what i do section start */
+/* what i do related style start */
 #what-i-do-des {
   padding: 30px 150px;
+}
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill {
+  padding: 40px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-des {
+  color: #474747;
+}
+
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.resume-container {
+  display: flex;
+  gap: 50px;
 }
