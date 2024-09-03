@@ -67,7 +67,7 @@ nav a {
   justify-content: space-between;
 }
 
-.profile-pic {
+.banner .profile-pic {
   width: 500px;
 }
 
@@ -90,4 +90,5 @@ nav a {
 
 .banner-content {
   max-width: 500px;
+  height: auto;
 }
