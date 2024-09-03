@@ -127,3 +127,8 @@ nav a {
 .info-description {
   text-align: center;
 }
+
+/* what i do section start */
+#what-i-do-des {
+  padding: 30px 150px;
+}
