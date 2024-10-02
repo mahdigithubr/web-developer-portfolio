@@ -121,6 +121,7 @@ main section {
   border-radius: 10px;
   background-color: #fff8f3;
   margin: 130px 0;
+  text-align: c;
 }
 
 .about-info-container {
@@ -214,4 +215,59 @@ textarea {
   background-color: #fff;
   border: 0;
   width: 100%;
+}
+
+/* Responsive style */
+.hide {
+  display: none;
+}
+
+/* Mobile design */
+
+@media screen and (max-width: 576px) {
+  #what-i-do-des,
+  .resume-container,
+  footer,
+  .about,
+  .banner {
+    padding: 20px;
+  }
+  .skill-container,
+  .resume-container,
+  footer,
+  nav,
+  .about-info-container,
+  .banner {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+  .contact input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 80%;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .banner .profile-pic {
+    width: 80%;
+  }
+
+  .banner {
+    background-image: none;
+    flex-direction: column-reverse;
+  }
+
+  .btn-primary {
+    margin-bottom: 15px;
+  }
+
+  .btn-primary-style {
+    width: 20px;
+  }
 }
